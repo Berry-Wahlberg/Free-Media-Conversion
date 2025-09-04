@@ -1,14 +1,19 @@
 # Batch Video Format Converter
-[![]("https://img.shields.io/badge/OS-Windows-green?logo=windows")](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
+![releases](https://img.shields.io/github/v/release/Berry-Wahlberg/Free-Media-Conversion)
+![.exe](https://img.shields.io/badge/Launch-Application-green?style=flat&logo=windows)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Windows](https://img.shields.io/badge/OS-Windows-green?logo=windows)
 
+[![download](https://img.shields.io/badge/Download-Here-blue?logo=download)](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
 
 A user-friendly GUI application for batch converting video files between different formats using FFmpeg.
 
-
-## Download 
+### 👉Download  [![download](https://img.shields.io/badge/Download-Here-blue?logo=download)](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases) 
 The latest which supports Windows x86 systems. You can download compiled files directly from the official release page: [Free-Media-Conversion Official Releases](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
 
-### Download Instructions
+
+
+#### Download Instructions
 1. Click the official release page link above to navigate to the GitHub Releases page.  
 2. Locate your preferred version (we recommend the latest v0.1.1 for optimal functionality) and expand its **Assets** section.  
 3. Click the corresponding compiled file (e.g., the Windows x86 zip package for v0.1.1) to initiate the download.  
@@ -158,3 +163,17 @@ For issues or suggestions, please open an issue on the [GitHub repository](https
 ## GitHub Repository
 
 [https://github.com/Berry-Wahlberg/video-converter](https://github.com/Berry-Wahlberg/video-converter)
+
+![Programming Language](https://img.shields.io/badge/Language-Python-3776AB)
+![Dependency](https://img.shields.io/badge/Dependency-FFmpeg-red)
+![GUI Framework](https://img.shields.io/badge/GUI-Tkinter-blueviolet)
+![Languages Supported](https://img.shields.io/badge/Supported%20Languages-9%2B-orange)
+![Multilingual](https://img.shields.io/badge/Feature-Multilingual-yellow)
+![Video Conversion](https://img.shields.io/badge/Support-Video%20Conversion-green)
+![Image Conversion](https://img.shields.io/badge/Support-Image%20Conversion-green)
+![Audio Conversion](https://img.shields.io/badge/Support-Audio%20(In%20Dev)-yellow)
+![Batch Processing](https://img.shields.io/badge/Feature-Batch%20Processing-purple)
+![Thread Support](https://img.shields.io/badge/Feature-Multi--threading-lightgrey)
+![Maintenance](https://img.shields.io/badge/Maintenance-Active-brightgreen)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Project Name](https://img.shields.io/badge/Project-Free%20Media%20Conversion-blue)

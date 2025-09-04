@@ -1,8 +1,14 @@
 # 批量视频格式转换器
+![releases](https://img.shields.io/github/v/release/Berry-Wahlberg/Free-Media-Conversion)
+![.exe](https://img.shields.io/badge/Launch-Application-green?style=flat&logo=windows)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Windows](https://img.shields.io/badge/OS-Windows-green?logo=windows)
+
+[![download](https://img.shields.io/badge/Download-Here-blue?logo=download)](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
 
 一款用户友好的图形用户界面 (GUI) 应用程序，使用 FFmpeg 批量转换不同格式的视频文件。
 
-## 下载
+### 下载  [![download](https://img.shields.io/badge/Download-Here-blue?logo=download)](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
 最新版本，支持 Windows x86 系统。您可以直接从官方发布页面下载编译文件：[Free-Media-Conversion 官方发布](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
 
 ### 下载说明
@@ -11,16 +17,19 @@
 3. 点击相应的文件开始下载。
 4. 下载完成后，解压压缩文件的内容。运行可执行文件（通常为 `.exe` 格式）即可启动应用程序。
 
+
 ## 功能特点
 
 - 批量转换大量视频文件
 - 支持多种视频格式（MP4、MKV、AVI、MOV、FLV、WMV等）
+- 支持图片格式转换 (Image Conversion)
+- 音频转换（开发中，Audio Conversion In Dev）
 - 转换过程中保持文件夹结构
 - 递归扫描子文件夹
-- 可调整并发转换线程数量
+- 可调整并发转换线程数量 (Multi-threading support)
 - 进度跟踪和详细的转换日志
 - 自动输出文件夹设置
-- 支持中英文界面
+- 支持多语言界面（9+种语言，Multilingual）
 
 ## 环境要求
 
@@ -159,4 +168,17 @@ pyinstaller VideoConverter.spec
 ## GitHub仓库
 
 [https://github.com/Berry-Wahlberg/video-converter](https://github.com/Berry-Wahlberg/video-converter)
-```
+
+![Programming Language](https://img.shields.io/badge/Language-Python-3776AB)
+![Dependency](https://img.shields.io/badge/Dependency-FFmpeg-red)
+![GUI Framework](https://img.shields.io/badge/GUI-Tkinter-blueviolet)
+![Languages Supported](https://img.shields.io/badge/Supported%20Languages-9%2B-orange)
+![Multilingual](https://img.shields.io/badge/Feature-Multilingual-yellow)
+![Video Conversion](https://img.shields.io/badge/Support-Video%20Conversion-green)
+![Image Conversion](https://img.shields.io/badge/Support-Image%20Conversion-green)
+![Audio Conversion](https://img.shields.io/badge/Support-Audio%20(In%20Dev)-yellow)
+![Batch Processing](https://img.shields.io/badge/Feature-Batch%20Processing-purple)
+![Thread Support](https://img.shields.io/badge/Feature-Multi--threading-lightgrey)
+![Maintenance](https://img.shields.io/badge/Maintenance-Active-brightgreen)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Project Name](https://img.shields.io/badge/Project-Free%20Media%20Conversion-blue)
