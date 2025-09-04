@@ -43,7 +43,6 @@
     "target_format": "目标格式: {target_format}",
     "output_directory": "输出目录: {output_directory}",
     "converting": "正在转换...",
-    "conversion_complete": "转换完成",
     "conversion_complete_msg": "转换完成！共处理 {total_files} 个文件，成功 {success_files} 个，失败 {failed_files} 个。",
     "conversion_failed": "转换失败",
     "conversion_failed_msg": "转换过程中发生错误: ",
@@ -61,6 +60,5 @@
     "output_format_label": "输出格式:",
     "error_no_io_folders": "请选择输入和输出文件夹。",
     "conversion_success": "转换成功完成。",
-    "conversion_failed": "转换失败",
     "jpeg_quality_label": "JPEG 质量:"
 }
