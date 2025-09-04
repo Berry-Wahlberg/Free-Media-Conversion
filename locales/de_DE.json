@@ -59,8 +59,6 @@
     "output_format_label": "Ausgabeformat:",
     "error_no_io_folders": "Bitte wählen Sie Eingabe- und Ausgabeverzeichnisse aus.",
     "conversion_success": "Konvertierung erfolgreich abgeschlossen.",
-    "jpeg_quality_label": "JPEG-Qualität:"
-    "error_create_output_folder_msg": "Das Ausgabeverzeichnis konnte nicht erstellt werden: ",
-    "error_ffmpeg": "Fehler",
+    "jpeg_quality_label": "JPEG-Qualität:",
     "language": "Deutsch"
 }

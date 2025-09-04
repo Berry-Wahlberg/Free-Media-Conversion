@@ -30,6 +30,6 @@
     "error_no_output_folder_msg": "يرجى تحديد مجلد خروج.",
     "error_create_output_folder": "خطأ",
     "error_create_output_folder_msg": "غير قادر على إنشاء مجلد الخرج: ",
-    "error_ffmpeg": "خطأ"
+    "error_ffmpeg": "خطأ",
+    "language": "العربية"
 }
-{"language": "العربية"}

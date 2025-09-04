@@ -59,8 +59,6 @@
     "output_format_label": "Formato di Output:",
     "error_no_io_folders": "Per favore, seleziona le cartelle di input e output.",
     "conversion_success": "Conversione completata con successo.",
-    "jpeg_quality_label": "Qualità JPEG:"
-    "error_create_output_folder_msg": "Impossibile creare la cartella di output: ",
-    "error_ffmpeg": "Errore",
+    "jpeg_quality_label": "Qualità JPEG:",
     "language": "Italiano"
 }

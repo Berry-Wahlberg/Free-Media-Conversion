@@ -60,7 +60,5 @@
     "conversion_success": "Conversion terminée avec succès.",
     "jpeg_quality_label": "Qualité JPEG:",
     "error_create_output_folder": "Erreur",
-    "error_create_output_folder_msg": "Impossible de créer le dossier de sortie: ",
-    "error_ffmpeg": "Erreur",
     "language": "Français"
 }

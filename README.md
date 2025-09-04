@@ -1,6 +1,19 @@
 # Batch Video Format Converter
+[![]("https://img.shields.io/badge/OS-Windows-green?logo=windows")](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
+
 
 A user-friendly GUI application for batch converting video files between different formats using FFmpeg.
+
+
+## Download 
+The latest which supports Windows x86 systems. You can download compiled files directly from the official release page: [Free-Media-Conversion Official Releases](https://github.com/Berry-Wahlberg/Free-Media-Conversion/releases)
+
+### Download Instructions
+1. Click the official release page link above to navigate to the GitHub Releases page.  
+2. Locate your preferred version (we recommend the latest v0.1.1 for optimal functionality) and expand its **Assets** section.  
+3. Click the corresponding compiled file (e.g., the Windows x86 zip package for v0.1.1) to initiate the download.  
+4. Once the download is complete, extract the contents of the zip file. Run the executable file (usually in `.exe` format) to launch the application.
+
 
 ## Features
 
@@ -64,9 +77,16 @@ video-converter/
 Generate a .spec file to configure the compilation options:
 
 ```
-pyinstaller --name "VideoConverter" --onefile --windowed main.py
+pyinstaller --name "VideoConverter" --onefile --windowed --add-data "bin\*;bin" --add-data "locales\*;locales" main.py
 ```
 
+This command creates a `VideoConverter.spec` file. You can edit this file to further customize the compilation.
+
+```
+pyinstaller --clean VideoConverter.spec
+```
+
+Or, you can directly use the following command to compile without creating a .spec file first:
 ```
 pyinstaller --clean --onefile --windowed \
   --hidden-import=tkinter \
@@ -121,7 +141,7 @@ The application supports both Chinese and English. To switch languages:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [GPL3.0 License](LICENSE).
 
 ## Contributing
 
