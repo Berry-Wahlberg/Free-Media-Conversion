@@ -65,6 +65,8 @@ Generate a .spec file to configure the compilation options:
 
 ```
 pyinstaller --name "VideoConverter" --onefile --windowed main.py
+
+pyinstaller build VideoConverter.spec
 ```
 
 ```

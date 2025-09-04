@@ -10,7 +10,7 @@ from image_tool import ImageConverterTab
 # Configuration file path
 CONFIG_FILE = "config.json"
 
-LOCALES_DIR = os.path.join(os.path.dirname(__file__), "locales")
+LOCALES_DIR = os.path.join(os.path.dirname(__file__), "./locales/")
 
 # Language dictionary
 LANGUAGES = {

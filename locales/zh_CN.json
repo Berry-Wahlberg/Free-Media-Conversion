@@ -1,5 +1,7 @@
 {
     "title": "花花视频格式批量转换工具",
+    "no_files_found": "未找到需要转换的文件。",
+    "conversion_complete": "转换完成。",
     "github_text": "项目GitHub主页",
     "language_label": "应用程序语言:",
     "save_settings": "保存设置",

@@ -29,7 +29,7 @@ try:
     with open('config.json', 'r', encoding='utf-8') as f:
         config = json.load(f)
         lang_code = config.get('language', 'en')
-        lang_file = os.path.join('locales', f'{lang_code}.json')
+        lang_file = os.path.join('./locales/', f'{lang_code}.json')
         if os.path.exists(lang_file):
             with open(lang_file, 'r', encoding='utf-8') as lang_f:
                 LANGUAGES = json.load(lang_f)
