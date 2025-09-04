@@ -59,10 +59,10 @@ DEFAULT_LANGUAGES = {
 
 ZH_CN = DEFAULT_LANGUAGES
 try:
-    with open(os.path.join('locales', 'zh_CN.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join('./locales/', 'zh_CN.json'), 'r', encoding='utf-8') as f:
         ZH_CN = json.load(f)
 except FileNotFoundError:
-    print("Language file locales\\zh_CN.json not found, using default English configuration.")
+    print("Language file ./locales/zh_CN.json not found, using default English configuration.")
 except Exception as e:
     print(f"Error loading language file: {e}")
 
@@ -118,7 +118,7 @@ LANGUAGES = {
 }
 
 # Locales directory
-LOCALES_DIR = "locales"
+LOCALES_DIR = "./locales/"
 
 import os
 
@@ -163,7 +163,7 @@ class VideoConverterTab(ttk.Frame):
         self.target_format = tk.StringVar(value="mp4")
 
         # FFmpeg path (relative)
-        self.ffmpeg_path = os.path.abspath("./bin/ffmpeg.exe")
+        self.ffmpeg_path = os.path.abspath("bin/ffmpeg.exe")
 
         # Create the UI on the video tab
         self.create_widgets()
@@ -197,7 +197,7 @@ class VideoConverterTab(ttk.Frame):
                              )
 
         # Input folder selection
-        ttk.Label(main_frame, text=LANGUAGES[lang]["input_folder_label"]).grid(row=0, column=0, sticky=tk.W, pady=5)
+        ttk.Label(main_frame, text=LANGUAGES.get(lang, LANGUAGES['English'])["input_folder_label"]).grid(row=0, column=0, sticky=tk.W, pady=5)
         ttk.Entry(main_frame, textvariable=self.input_folder, width=40).grid(row=0, column=1, padx=5, pady=5)
         ttk.Button(main_frame, text=LANGUAGES[lang]["browse_button"], command=self.browse_input_folder).grid(row=0, column=2, padx=5, pady=5)
 
